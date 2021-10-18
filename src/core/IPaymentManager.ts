@@ -2,7 +2,7 @@ import { IPaymentDetails, IResult } from './interfaces';
 import { IPaymentGateway } from './IPaymentGateway';
 
 export interface IPaymentManager {
-  //proxy pattern implementation
+  //command pattern implementation
 
   /**
    * Ejecuta un pago

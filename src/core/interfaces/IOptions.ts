@@ -1,4 +1,5 @@
 export interface IOptions{
     active?: boolean;
-    //some others configs
+    maxTransaction?: number
+    //some others config options
 }
